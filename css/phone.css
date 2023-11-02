@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,500;1,700;1,800&family=Recursive:wght@300;600&family=Roboto:ital,wght@1,500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+ }
+ html{
+    /* font-size: 10px; */
+ }
+
+ 
+ /*============ NAV BAR AND LOGO =========== */
+#title{
+ overflow: hidden;
+ font-size: 4vmax;
+ padding-top: 7em;
+ font-weight: 700;
+}
+
+.logo{
+    align-items: center;
+    place-content: center;
+    margin-bottom: 2em;
+}
+
+.dishname h1{
+font-weight: 700;
+}
+ span{
+    overflow: hidden;
+}
+.dishname{
+    float: right;
+    /* padding-top: 20%; */
+    z-index: 1;
+    margin-left: 1em;
+    position: absolute;
+    background: transparent;
+    font-weight: 700;
+    margin-top: 10em;
+}
+
+.slide img{
+    width: 20vh;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+.btn{
+ position: absolute;
+ z-index: 2;
+ margin-left: 14em;
+ font-size: 25px;
+ padding: 1.1em -1.2em 1.8em 1.5em;
+ overflow: hidden;
+ font-size: 1em;
+ margin-top: 39em;
+}
+.slide{
+    height: 10rem;
+  position: absolute;
+}
+.slide:nth-child(1){
+    bottom: -10rem;
+}
+.slide:nth-child(2){
+    left: -10rem;
+}
+.slide:nth-child(3){
+    top: -10rem;
+}
+.slide:nth-child(4){
+    right: -10rem;
+   
+}
+.carousel{
+    height: 40rem;
+    width: 40rem;
+    border: 8rem solid #faebd7;
+    border-radius: 100%;
+    display: flex;
+    flex-shrink: 0;
+    top: -25%;
+    left: -20%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: rotate 1s;
+}
+ /*============ ORDER SECTION =========== */
+ .order {
+    margin-left: -7em;
+   font-family: "Poppins";
+ }
+ .order h2{
+    margin-left: 2em;
+ }
+ .order h2 ::after{
+    content: "";
+    background-color: goldenrod;
+    width: 67px;
+    height: 2px;
+    margin-left: 6em;
+    margin-top: 0.5em;
+    display: block;
+ }
+ .order h2{
+    break-after: auto;
+ }
+ .order-img button{
+  overflow: hidden;
+  padding: 1.1em 1.8em 1.8em 1.5em;
+  margin-left: 12em;
+  font-size: 1em;
+ }
+ .order-img{
+    margin-left: 4em;
+ }
+ .order-img p{
+    margin-left: 12em;
+ }
+ /*============ CONTACT SECTION =========== */
+
+ #contact{
+    position: relative;
+    overflow: hidden;
+ }
+ .right-col h1{
+    letter-spacing: 0.1em;
+    width: 45vw;
+  padding-bottom: 0.1em;
+  padding-top: -1em;
+  font-size: 30px;
+  font-weight: 500;
+ }
+ #right{
+    height: 15vh;
+ }
+ .right-col p{
+    word-spacing: 0.1px;
+    line-height: 1.5em;
+ }
+ .left-col{
+    width: 30vw;
+ }
+ textarea{
+    padding: 0.2rem 0;
+ }
+ /*============ SIGN IN  SECTION =========== */
+.signin{
+  overflow: hidden;
+  place-content: center;
+  display: grid;
+  position: relative;
+  overflow: hidden;
+  margin-left: 0em;
+  top: -0.1em;
+  margin-top: 7em;
+  border-radius: 0em 0em;
+}
+.signin{
+    padding-top: -1em;
+}
+.signin form{
+    margin-left: 7em;
+}
+.signin h1{
+    font-size: 35px;
+}
+.signin .input{
+    width: 14em;
+    overflow: hidden;
+}
+
+
+#signin button{
+ width: 15em;
+ margin-left: 2em;
+}
+ /*============ footer SECTION =========== */
+
+#important{
+    margin-top: 10px;
+}
+#important a:hover{
+    color: gray;
+}
+#address{
+margin-top: 20px;
+}
+#address h4{
+    color: gold;
+}
+.footer-weight{
+    color: goldenrod;
+}
+ /*============ SIGN IN  SECTION =========== */
